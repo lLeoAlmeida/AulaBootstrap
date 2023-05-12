@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Framework Bootstrap</title>
+	<meta charset="UTF-8">
+	<!-- Importar CSS do Bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!-- Cabeçalho -->
+	<header class="bg-dark text-white py-4">
+		<div class="container d-flex justify-content-between align-items-center">
+			<h1 class="text-white ">Framework Bootstrap</h1>
+		</div>
+	</header>
+	<!-- Conteúdo principal -->
+
+	<main class="py-5 ">
+		<div class="container">
+			<h1 class="display-1 mb-4">Introdução ao framework Bootstrap</h1>
+			<p class="lead mb-4">
+				Hoje irei apresentar os conceitos básicos do Bootstrap, um dos frameworks CSS mais populares e
+				amplamente utilizados no desenvolvimento front-end.
+			<h3 class="display-2 mb-4">O que é um framework?</h3>
+			<p class="lead mb-4">
+				Antes de falar um pouco sobre o Bootstrap, primeiramente precisamos entender o que é um framework.
+			</p>
+			<p class="lead mb-4">
+				Imagina que você está tentando contruir um carro utilizando lego (Bloquinhos de construção). Contudo,
+				Fazer tudo do zero pode ser muito difícil e demorado. Um framework é como se fosse alguns bloquinhos
+				pré-montados que ajudam você a construir o carro mais rapidamente e com mais eficiência. É como se
+				alguém já tivesse feito uma base, e você não precisaria começar a montar teu carro do zero, você pode,
+				por exemplo começar com uma estrutura do motor já pronta e só costumizar as outras partes como quiser.
+				<br>
+				É por isso que os desenvolvedores usam frameworks para construir aplicativos e sites de maneira mais
+				fácil e rápida.
+
+			</p>
+			<h3 class="display-2 mb-4">Bootstrap</h3>
+			<p class="lead mb-4">
+				O Bootstrap é um framework CSS de código aberto que foi criado para facilitar o desenvolvimento de sites
+				responsivos e compatíveis com diferentes dispositivos, como desktops, laptops, tablets e smartphones.
+				Ele fornece uma série de componentes pré-construídos, como botões, formulários, menus de navegação,
+				grades e muito mais, que podem ser facilmente integrados em um site existente.
+
+				O Bootstrap foi desenvolvido pela equipe do Twitter e é amplamente utilizado por desenvolvedores em todo
+				o mundo. Ele usa o conceito de grid (grade) para organizar o conteúdo do site em colunas e linhas,
+				permitindo que os desenvolvedores criem layouts complexos com facilidade.
+
+
+			<h3 class="h3">Tá... Mas como ele funciona tio Léo?</h3>
+			<p class="lead mb-4">
+				Meus queridos e amados aluninhos do tio Léo, o Framework funciona da seguinte maneira:
+				<br>
+				Básicamente eles fornecem algumas classes do css já pré-construidas, onde que para você aplicar elas no
+				seu HTML,basta atribuir essas classes no elemento desejado.
+				<br>
+				<br>
+				Por exemplo, para fazer esse botão:
+				
+			<div >
+				<button class="btn btn-primary">Clique aqui</button>
+			</div>
+				<br>
+
+			<p class="lead mb-4">
+				Um botão azul, com as letras brancas bordas arredondadas, que ao colocar o mouse em cima
+				dele alterar o background do botão para um azul mais escuro e ao clicar apareça uma borda azul mais clara 
+				em torno dele, você precisaria criar as seguintes regras no CSS:
+
+			<figure class="figure">
+				<img class="figure-img img-fluid rounded" src="Imagens/btn1.png" alt="">
+			</figure>
+
+			</p>
+			<p class="lead">
+				Contudo, utilizando o framework Bootstrap você só precisaria inserir as classes <code> btn </code>e<code> btn-primary</code> no elemento <code>&lt;button&gt;</code>,
+				sem se preocupar em construir do zero o CSS, ficando desta maneira o teu arquivo HTML:
+			</p>
+
+			<figure class="figure">
+				<img class="figure-img img-fluid rounded" src="Imagens/btn1bt.png" alt="">
+			</figure>
+
+			</p>
+
+			<h3 class="h3 mb-4">Adicionando o Bootstrap no seu projeto</h3>
+			<p class="lead">
+				Antes de começarmos a usar o Bootstrap, iremos utilizar o método CDN para adicionar o bootstrap.
+				<br>
+				Nos iremos importar o Bootstrap no head do html da seguinte maneira:
+				<br>
+			<figure class="figure">
+				<img class="figure-img img-fluid rounded" src="Imagens/code1.png" alt="">
+			</figure>
+			</p>
+
+			<h3 class="h3-6 mb-auto"> Exemplo Básico do uso do Bootstrap</h3>
+			<p class="lead">
+			<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+				data-slug-hash="qBJKVNX" data-user="lLeoAlmeida"
+				style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+				<span>See the Pen <a href="https://codepen.io/lLeoAlmeida/pen/qBJKVNX">
+						Untitled</a> by Leo Almeida (<a href="https://codepen.io/lLeoAlmeida">@lLeoAlmeida</a>)
+					on <a href="https://codepen.io">CodePen</a>.</span>
+			</p>
+			<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+			</p>
+			<a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blanck"
+				class="btn btn-primary btn-lg">Para saber mais sobre o Bootstrap e as classes que ele fornece, clique aqui</a>
+		</div>
+	</main>
+
+	<footer class="bg-dark text-white py-3">
+		<div class="container text-center">
+		  <p>Esse site foi elaborado utilizando o Bootstrap</p>
+		</div>
+	  </footer>
+
+
+	<!-- Importar JavaScript do Bootstrap -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
